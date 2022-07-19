@@ -1,0 +1,6 @@
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\bin\Debug\CApp.exe.config
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\bin\Debug\CApp.exe
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\bin\Debug\CApp.pdb
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\obj\Debug\CApp.csprojResolveAssemblyReference.cache
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\obj\Debug\CApp.exe
+c:\users\anu kiran\documents\visual studio 2012\Projects\MVCService\CApp\obj\Debug\CApp.pdb

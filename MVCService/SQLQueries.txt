@@ -1,0 +1,21 @@
+﻿1.   select * from Customer where Name like '%Joe'
+
+2. Select p.Name from Product p
+join OrderProduct op on p.ProductID=op.ProductID
+join Order o on o.OrderId = op.OrderId
+join Customer c on c.CustomerId = op.CustomerId and o.CustomerId=c.CustomerId
+where c.Name='Joe' and o.CreatedAt > ''11/1/2016'
+
+3. Select Sum(p.Price) as TotalAmount from Product p
+join OrderProduct op on p.ProductID=op.ProductID
+join Order o on o.OrderId = op.OrderId
+join Customer c on c.CustomerId = op.CustomerId and o.CustomerId=c.CustomerId
+where c.Name='Joe' 
+
+
+4. Select c.Name,count(op.OrderId) as Count from Product p
+join OrderProduct op on p.ProductID=op.ProductID
+join Order o on o.OrderId = op.OrderId
+join Customer c on c.CustomerId = op.CustomerId and o.CustomerId=c.CustomerId
+group by Name
+having count(op.ProductId) > 1
